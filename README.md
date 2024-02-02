@@ -61,6 +61,15 @@ Determining key metrics about home sales data Using SparkSQL. Using Spark to cre
 
 15. The Home_Sales.ipynb file was downloaded and uploaded into the "Home_Sales" GitHub repository.
 
+
+**Results**
+
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/f1ec1ca6-b3dc-4d90-817d-2eb124b19067)
+
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/17362e0f-99b6-449b-ad4e-e100dcaffb48)
+
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/b4727b64-792d-409c-aa7f-72c6103e8be9)
+
 **References**
 
 Head photo rights: https://www.mygreatlearning.com/blog/big-data-analytics/
