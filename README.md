@@ -70,7 +70,7 @@ Runtime for query, rounded off to two decimal places as below:
 
 ![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/4f030bd4-30c6-49cd-b234-e2d89aa4b9de)
 
-Runtime decreased significantly compared to cached runtime as below:
+Runtime decreased significantly compared to uncached runtime as below:
 
 ![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/0185ef4b-db1e-48a6-b51e-ed1e9d9e02f6)
 
