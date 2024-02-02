@@ -64,7 +64,7 @@ Determining key metrics about home sales data Using SparkSQL. Using Spark to cre
 15. The Home_Sales.ipynb file was downloaded and uploaded into the "Home_Sales" GitHub repository.
 
 
-**Results**
+**Results & Runtime Comparisons**
 
 Runtime for query, rounded off to two decimal places as below:
 
