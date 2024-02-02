@@ -10,38 +10,55 @@ Determining key metrics about home sales data Using SparkSQL. Using Spark to cre
 
 **Instructions**
 
-1. The Home_Sales_starter_code.ipynb file was renamed to Home_Sales.ipynb.
+1. The Home_Sales_starter_code.ipynb file was renamed to Home_Sales.ipynb
 
-2. Necessary PySpark SQL functions were imported for this assignment.
+2. Necessary PySpark SQL functions were imported for this assignment
 
-3. The home_sales_revised.csv data in the starter code was read into a Spark DataFrame.
+3. The home_sales_revised.csv data in the starter code was read into a Spark DataFrame
 
-4. A temporary table named home_sales was created.
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/abf97de8-c7bf-466e-b5c0-4c543d993818)
+
+4. A temporary table named home_sales was created
 
 5. **Following questions answered using SparkSQL:**
 
-   - Average price for a four-bedroom house sold for each year was calculated and rounded off to two decimal places.
-   - Average price of a home for each year it was built, with three bedrooms and three bathrooms, was calculated and rounded off to two decimal places.
-   - Average price of a home for each year, with three bedrooms, three bathrooms, two floors, and a size greater than or equal to 2,000 square feet, was calculated and rounded off to two decimal places.
-   - "View" rating for homes costing more than or equal to $350,000 was determined, and the run time for this query was rounded off to two decimal places.
+   - Average price for a four-bedroom house sold for each year was calculated and rounded off to two decimal places
 
-6. Temporary table home_sales was cached.
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/c1632b85-08bb-4951-8fbe-c40bf0230503)
 
-7. Checked if the temporary table home_sales was cached.
+   - Average price of a home for each year it was built, with three bedrooms and three bathrooms, was calculated and rounded off to two decimal places
 
-8. Using the cached data, a query was run to filter out view ratings with an average price greater than or equal to $350,000. The runtime was determined and compared to uncached runtime.
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/2b0d1b00-5191-4e79-8868-57c663cc7b09)
 
-9. The formatted parquet home sales data was partitioned by the "date_built" field.
+   - Average price of a home for each year, with three bedrooms, three bathrooms, two floors, and a size greater than or equal to 2,000 square feet, was calculated and rounded off to two decimal places
 
-10. A temporary table for the parquet data was created.
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/fb810b63-a6b0-48c7-9c8c-5ace36c9bac4)
 
-11. A query was run to filter out view ratings with an average price greater than or equal to $350,000. The runtime was determined and compared to uncached runtime.
+   - "View" rating for homes costing more than or equal to $350,000 was determined, and the run time for this query was rounded off to two decimal places
 
-12. The home_sales temporary table was uncached.
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/3d0569ad-9673-408c-8056-6432c9e317ee)
 
-13. Verified that the home_sales temporary table was uncached using PySpark.
+7. Temporary table home_sales was cached
 
-14. The Home_Sales.ipynb file was downloaded and uploaded into the "Home_Sales" GitHub repository.
+8. Checked if the temporary table home_sales was cached
+
+9. Using the cached data, a query was run to filter out view ratings with an average price greater than or equal to $350,000. The runtime was determined and compared to uncached runtime
+
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/17362e0f-99b6-449b-ad4e-e100dcaffb48)
+
+10. The formatted parquet home sales data was partitioned by the "date_built" field
+
+11. A temporary table for the parquet data was created
+
+12. A query was run to filter out view ratings with an average price greater than or equal to $350,000. The runtime was determined and compared to uncached runtime
+
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/b4727b64-792d-409c-aa7f-72c6103e8be9)
+
+13. The home_sales temporary table was uncached.
+
+14. Verified that the home_sales temporary table was uncached using PySpark.
+
+15. The Home_Sales.ipynb file was downloaded and uploaded into the "Home_Sales" GitHub repository.
 
 **References**
 
