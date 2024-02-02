@@ -39,7 +39,7 @@ Determining key metrics about home sales data Using SparkSQL. Using Spark to cre
 
 ![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/3d0569ad-9673-408c-8056-6432c9e317ee)
 
-![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/f1ec1ca6-b3dc-4d90-817d-2eb124b19067)
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/3e6c21eb-eca0-43ee-ae96-d9be27b6e6c2)
 
 7. Temporary table home_sales was cached
 
@@ -47,7 +47,7 @@ Determining key metrics about home sales data Using SparkSQL. Using Spark to cre
 
 9. Using the cached data, a query was run to filter out view ratings with an average price greater than or equal to $350,000. The runtime was determined and compared to uncached runtime
 
-![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/17362e0f-99b6-449b-ad4e-e100dcaffb48)
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/4343c2f0-0183-429a-8e4e-8b7186dc3528)
 
 10. The formatted parquet home sales data was partitioned by the "date_built" field
 
@@ -55,7 +55,7 @@ Determining key metrics about home sales data Using SparkSQL. Using Spark to cre
 
 12. A query was run to filter out view ratings with an average price greater than or equal to $350,000. The runtime was determined and compared to uncached runtime
 
-![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/b4727b64-792d-409c-aa7f-72c6103e8be9)
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/67584782-64d1-4de1-bd2b-bf6e6bc0dff3)
 
 13. The home_sales temporary table was uncached.
 
@@ -68,15 +68,15 @@ Determining key metrics about home sales data Using SparkSQL. Using Spark to cre
 
 Runtime for query, rounded off to two decimal places as below:
 
-![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/f1ec1ca6-b3dc-4d90-817d-2eb124b19067)
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/4f030bd4-30c6-49cd-b234-e2d89aa4b9de)
 
 Runtime decreased significantly compared to cached runtime as below:
 
-![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/17362e0f-99b6-449b-ad4e-e100dcaffb48)
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/0185ef4b-db1e-48a6-b51e-ed1e9d9e02f6)
 
 Parquet Runtime increased compared to uncached runtime as below:
 
-![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/b4727b64-792d-409c-aa7f-72c6103e8be9)
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/0f6d3471-f9fd-48e3-bc1d-c4f9ebd7bf9c)
 
 
 **References**
