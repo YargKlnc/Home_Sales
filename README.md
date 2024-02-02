@@ -3,9 +3,11 @@ by YK
 
 ![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/10b97996-be33-44fe-90fc-9ece4573cd80)
 
+
 **Background**
 
 Determining key metrics about home sales data Using SparkSQL. Using Spark to create temporary views, partition the data, cache and uncache a temporary table, and verifying that the table has been uncached.
+
 
 **Instructions**
 
@@ -64,11 +66,18 @@ Determining key metrics about home sales data Using SparkSQL. Using Spark to cre
 
 **Results**
 
+Runtime for query, rounded off to two decimal places as below:
+
 ![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/f1ec1ca6-b3dc-4d90-817d-2eb124b19067)
+
+Runtime decreased significantly compared to cached runtime as below:
 
 ![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/17362e0f-99b6-449b-ad4e-e100dcaffb48)
 
+Parquet Runtime increased compared to uncached runtime as below:
+
 ![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/b4727b64-792d-409c-aa7f-72c6103e8be9)
+
 
 **References**
 
