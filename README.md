@@ -3,7 +3,6 @@ by YK
 
 ![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/10b97996-be33-44fe-90fc-9ece4573cd80)
 
-
 **Background**
 
 Determining key metrics about home sales data Using SparkSQL. Using Spark to create temporary views, partition the data, cache and uncache a temporary table, and verifying that the table has been uncached.
@@ -37,6 +36,8 @@ Determining key metrics about home sales data Using SparkSQL. Using Spark to cre
    - "View" rating for homes costing more than or equal to $350,000 was determined, and the run time for this query was rounded off to two decimal places
 
 ![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/3d0569ad-9673-408c-8056-6432c9e317ee)
+
+![image](https://github.com/YargKlnc/Home_Sales/assets/142269763/f1ec1ca6-b3dc-4d90-817d-2eb124b19067)
 
 7. Temporary table home_sales was cached
 
